@@ -1,6 +1,6 @@
 const hello = (msg: string): string => {
   return `Hello ${msg}!`;
-}
+};
 
-const msg: string = 'World!';
+const msg = 'World!';
 console.log(hello(msg));

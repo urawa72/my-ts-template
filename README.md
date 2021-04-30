@@ -10,6 +10,5 @@ npx tsc --init
 ## ESlint and Prettier
 
 ```
-yarn add -D eslint prettier eslint-config-prettier eslint-plugin-prettier
-npx eslint --init
+yarn add -D eslint prettier eslint-config-prettier eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```

@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   target: 'node',
   entry: {
-    testFunction: path.resolve(__dirname, './src/index.ts')
+    testFunction: path.resolve(__dirname, './src/index.ts'),
   },
   output: {
     filename: '[name]/index.js',
@@ -20,7 +20,7 @@ module.exports = {
             transpileOnly: true,
           },
         },
-      }
+      },
     ],
   },
   resolve: {
