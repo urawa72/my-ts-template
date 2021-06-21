@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   target: 'node',
   entry: {
-    testFunction: path.resolve(__dirname, './src/index.ts'),
+    test: path.resolve(__dirname, './src/index.ts'),
   },
   output: {
     filename: '[name]/index.js',
@@ -16,9 +16,6 @@ module.exports = {
         test: /\.tsx?$/,
         use: {
           loader: 'ts-loader',
-          options: {
-            transpileOnly: true,
-          },
         },
       },
     ],

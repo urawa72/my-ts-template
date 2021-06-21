@@ -4,7 +4,6 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "typecheck": "tsc -p . --noEmit",
     "build": "webpack"
   },
   "license": "MIT",
