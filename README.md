@@ -3,7 +3,7 @@
 ## TypeScript
 
 ```
-yarn add -D typescript ts-node @typescript-eslint/eslint-plugin @typescript-eslint/parser
+yarn add -D typescript ts-node
 npx tsc --init
 ```
 
